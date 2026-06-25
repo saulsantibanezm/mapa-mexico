@@ -45,3 +45,6 @@ desktop.ini
 # Archivos de Excel temporales
 ~$*.xlsx
 *.xlsx~
+# Archivos de bloqueo de Excel
+~.xlsx
+.~lock.*.xlsx#
