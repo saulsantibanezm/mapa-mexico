@@ -1,0 +1,47 @@
+# Entornos virtuales
+venv/
+.venv/
+env/
+ENV/
+
+# Archivos de caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Archivos de base de datos (opcional - si quieres subir municipios.db, comenta esta línea)
+# *.db
+
+# Archivos temporales
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Archivos de configuración local
+.env
+.vscode/
+.idea/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archivos ZIP y comprimidos
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Archivos CSV grandes (si no quieres subirlos)
+*.csv
+
+# Perfiles de VS Code
+*.code-profile
+
+# Archivos de Excel temporales
+~$*.xlsx
+*.xlsx~
