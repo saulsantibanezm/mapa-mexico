@@ -3,7 +3,7 @@
 Crea municipios.db desde el CSV de datos.
 
 Uso:
-    python create_db.py                        # usa poblacion.csv en el mismo directorio
+    python create_db.py                        # usa coordenadas_municipios.csv en el mismo directorio
     python create_db.py ruta/otro_archivo.csv  # usa otro CSV
 
 Formato del CSV requerido:
@@ -16,7 +16,7 @@ import os
 import sys
 
 
-CSV_PATH = sys.argv[1] if len(sys.argv) > 1 else "poblacion.csv"
+CSV_PATH = sys.argv[1] if len(sys.argv) > 1 else "coordenadas_municipios.csv"
 DB_PATH  = "municipios.db"
 
 
