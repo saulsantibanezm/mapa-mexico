@@ -48,14 +48,16 @@ Abre http://127.0.0.1:8000 en tu navegador.
 
 ## Estructura del proyecto
 
+```
 mapa-mexico/
-├── main.py # Backend FastAPI (6 endpoints)
-├── create_db.py # Genera la base de datos desde CSV
-├── requirements.txt # Dependencias Python
-├── coordenadas_municipios.csv # Datos geográficos de municipios
-├── municipios.db # Base de datos SQLite
+├── main.py                        # Backend FastAPI (6 endpoints)
+├── create_db.py                   # Genera la base de datos desde CSV
+├── requirements.txt               # Dependencias Python
+├── coordenadas_municipios.csv     # Datos geográficos de municipios
+├── municipios.db                  # Base de datos SQLite
 └── templates/
-└── index.html # Interfaz web completa
+    └── index.html                 # Interfaz web completa
+```
 
 ## API disponible
 
