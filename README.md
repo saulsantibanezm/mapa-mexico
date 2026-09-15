@@ -32,7 +32,8 @@ Abre http://127.0.0.1:8000 en tu navegador.
 
 ## Versión extendida
 
-Este repositorio es la versión base del proyecto.
+Este repositorio es la versión base del proyecto. La versión con indicadores de lenguas indígenas del Censo INEGI 2020 está disponible en:
+👉 https://github.com/saulsantibanezm/mapa-mexico-lom
 
 ## Autor
 
